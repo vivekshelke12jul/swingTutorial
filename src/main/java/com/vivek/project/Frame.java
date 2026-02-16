@@ -6,8 +6,8 @@ import java.net.URL;
 
 public class Frame extends JFrame {
     public Frame() {
-        this.setSize(600,400);
-        this.setResizable(false);
+        this.setSize(1200,800);
+//        this.setResizable(false);
         this.setTitle("Swing");
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         this.setVisible(true);
