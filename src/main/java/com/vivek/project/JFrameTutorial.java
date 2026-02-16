@@ -4,8 +4,8 @@ import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
 
-public class Frame extends JFrame {
-    public Frame() {
+public class JFrameTutorial extends JFrame {
+    public JFrameTutorial() {
         this.setSize(1200,800);
 //        this.setResizable(false);
         this.setTitle("Swing");

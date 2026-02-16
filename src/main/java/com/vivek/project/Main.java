@@ -26,7 +26,7 @@ public class Main {
         label.setHorizontalAlignment(JLabel.CENTER);
         label.setBounds(0,0,600,600);
 
-        Frame frame = new Frame();
+        JFrameTutorial frame = new JFrameTutorial();
         frame.setLayout(null);
         frame.setVisible(true);
         frame.add(label);

@@ -4,12 +4,12 @@ import javax.swing.*;
 import java.awt.*;
 import java.net.URL;
 
-public class PanelTutorial {
+public class JPanelTutorial {
     public static void main(String[] args) {
 
         JLabel label = new JLabel();
         label.setText("hi");
-        URL url = PanelTutorial.class.getResource("/swing.png");
+        URL url = JPanelTutorial.class.getResource("/swing.png");
         label.setIcon(new ImageIcon(url));
         label.setBorder(BorderFactory.createLineBorder(Color.ORANGE, 3));
         label.setBounds(10,10,300,300);
